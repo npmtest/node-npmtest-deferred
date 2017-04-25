@@ -1,6 +1,7 @@
 # npmtest-deferred
 
-test coverage for  [deferred (v0.7.6)](https://github.com/medikoo/deferred#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-deferred.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deferred) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deferred.svg)](https://travis-ci.org/npmtest/node-npmtest-deferred)
+#### basic test coverage for  [deferred (v0.7.6)](https://github.com/medikoo/deferred#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-deferred.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deferred) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deferred.svg)](https://travis-ci.org/npmtest/node-npmtest-deferred)
+
 #### Modular and fast Promises implementation
 
 [![NPM](https://nodei.co/npm/deferred.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/deferred)
@@ -9,7 +10,7 @@ test coverage for  [deferred (v0.7.6)](https://github.com/medikoo/deferred#readm
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-deferred/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-deferred/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-deferred/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-deferred/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-deferred/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-deferred/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-deferred/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-deferred/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-deferred/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-deferred/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-deferred/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-deferred/build/coverage.html/index.html)
 
@@ -89,7 +90,8 @@ test coverage for  [deferred (v0.7.6)](https://github.com/medikoo/deferred#readm
         "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
         "test": "node ./node_modules/tad/bin/tad"
     },
-    "version": "0.7.6"
+    "version": "0.7.6",
+    "bin": {}
 }
 ```
 
